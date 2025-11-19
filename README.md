@@ -15,6 +15,7 @@ A complete NFT marketplace smart contract built with Move for the Sui blockchain
 - **Buy NFTs** - Purchase listed NFTs with SUI tokens
 - **Cancel Listings** - Remove your NFTs from the marketplace
 - **Marketplace Fees** - Automatic 2% marketplace fee collection
+- **Manual Withdrawal** - Withdraw purchased NFT sales
 - **Fee Withdrawal** - Admin function to withdraw collected fees
 
 ### Developer Features
