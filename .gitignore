@@ -1,0 +1,48 @@
+# .gitignore for Move language projects (Aptos / Sui / Move CLI)
+
+# Build artifacts
+/build/
+/target/
+/artifacts/
+/out/
+/dist/
+bin/
+*.mv
+*.mvir
+*.bcs
+*.module
+*.mv-*
+*.abi
+
+# Move package manager / caches
+/.move_checkpoints/
+/.move_build/
+/.move_cache/
+/.move/
+
+# Tool-specific / runtime dirs
+/.aptos/
+/.sui/
+.cache/
+coverage/
+
+# Keys, secrets, env
+*.key
+*.pem
+*.mnemonic
+*.secret
+.env
+.env.*
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+*.log
